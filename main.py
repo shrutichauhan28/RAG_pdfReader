@@ -12,7 +12,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 # Set the page configuration at the top
-st.set_page_config(page_title="SkyChat 3.0.0", page_icon="👽", layout="wide")
+st.set_page_config(page_title="CHAT BOXX", page_icon="👽", layout="wide")
 
 # Environment variables ko load karte hain .env file se
 load_dotenv()
@@ -99,7 +99,7 @@ def user_input(user_question):
 
 # Main function jo Streamlit app ko run karta hai
 def main():
-    st.markdown("<h1 class='title'>👽SkyChat 3.0.0</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title'>XCHAT BOXX</h1>", unsafe_allow_html=True)
     st.markdown("<h2 class='header'>Chat with PDF - Gemini LLM App(with history)</h2>", unsafe_allow_html=True)
     
     # Initialize chat history in session state if not present
